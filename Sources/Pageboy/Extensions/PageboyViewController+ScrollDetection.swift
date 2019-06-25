@@ -358,7 +358,7 @@ extension PageboyViewController: UIPageViewControllerDelegate, UIScrollViewDeleg
 // MARK: - NavigationDirection detection
 internal extension PageboyViewController.NavigationDirection {
     
-    var pageViewControllerNavDirection: UIPageViewControllerNavigationDirection {
+    var pageViewControllerNavDirection: UIPageViewController.NavigationDirection {
         get {
             switch self {
                 
